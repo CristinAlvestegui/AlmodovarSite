@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(138, 75, 201); /*Comentaaaaa*/
+    /*background-size: COVER; /*ele coloca um imagem de fundo inteira! toda a imagem é usada para preencher o site*/
+    /*background-repeat: no-repeat; /*se uma foto for pequena, ela var repetida ate preencher, menos com o no-repeat*/
+    /*background-position: center; /*centraliza a imagem*/
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+header{
+    border: tamahho estilo cor;
+    border: 18px solid rgb(161, 216, 78);
+    background-color: rgb(78, 220, 245);
+    text-align: left;
+}
+
+nav ul li{
+    list-style:none;
+    display: inline;
+    /*padding: 25px;*/
+    /*text-decoration: none; remove italico, ou efeito
+    list-style:none;*/
+    border: 2px solid pink;
+    background-color: rgb(214, 166, 174);
+    padding-top: 15px;
+      
+}
+ul{
+    text-align: right; 
+}
+
+h1, h4{/*podemos usar , virgula para falar q outro elemento vai ter a mesma formatação*/
+    text-align: left;
+    width: 98%;
+    height: 10%;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    margin-top: 20px;
+    background-color: rgb(248, 195, 95);
+
+}
+
+h4{
+    margin-top: -25px;
+    padding-bottom: -80px;
+}
+
+/*#capa{
+    width: 1073px 
+    height: 782px
+}*/
+
+#sobre{
+    background-color: indianred;
+    padding: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#history{
+    font-size: 28px;
+    font-display: swap;
+}
+#texto{
+    background-color: bisque;
+    height: 80%;
+}
