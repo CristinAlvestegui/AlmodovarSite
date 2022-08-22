@@ -77,3 +77,141 @@ a{
     background-color: bisque;
     height: 80%;
 }
+.grid-container{ /*chamamos a classe com ponto .*/
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+}
+
+#sejaCliente, #titulo10{
+    font-size: 3cm;
+}
+
+.banner{
+    width: 50%;
+    height: 100%;
+}
+
+#carne{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+#fotocarne{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#mãe{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#fotoMãe{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#brazos{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#fotobrazos{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#piel{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#fotopiel{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#volver{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#fotovolver{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+#fale{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+#fotofale{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+
+#kika{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#fotokika{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#mei{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#fotomei{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+#mulheres{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+#fotomulheres{
+    grid-column-start: 1;
+    grid-row-start: 6;
+    grid-row-end: 6;
+}
+
+/*Títulos*/
+#carne, #mãe, #brazos, #piel, #volver, #fale, #kika, #mei, #mulheres{
+    font-size: 20px;
+    border: 2px rgb(78, 220, 245) dotted;
+    text-align: center;
+    background-color: rgb(78, 220, 245);
+    font-weight: bold;
+}
+
+/*Imagens*/
+#fotocarne, #fotomãe, #fotobrazos, #fotopiel, #fotovolver, #fotofale, #fotokika, #fotomei, #fotomulheres{
+    text-align: center;
+    background-color: aquamarine;
+    font-weight: bold;
+    border: 2px dotted white;
+}
